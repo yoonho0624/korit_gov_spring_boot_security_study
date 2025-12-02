@@ -13,4 +13,7 @@ public class UserRoleRepository {
     public void addUserRole(UserRole userRole) {
         userRoleMapper.addUserRole(userRole);
     }
+    public void updateUserRole(UserRole userRole) {
+        userRoleMapper.updateUserRole(userRole);
+    }
 }
